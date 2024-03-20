@@ -31,6 +31,11 @@ Button(root,image=eraser,bg="#f2f3f5").place(x=38,y=390)
 
 
 
+canvas = Canvas(root,width=930,height=500,background="#fff",cursor="hand2")
+canvas.place(x=100,y=10)
+
+
+
 
 
 

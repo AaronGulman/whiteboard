@@ -29,10 +29,34 @@ def display_pallete():
         id = colors.create_rectangle((10,10,30,30),fill="#000")
         colors.tag_bind(id,"Button-1",lambda x: show_color('#000'))
         
+        id = colors.create_rectangle((10,40,30,60),fill="#CFCFCF")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#CFCFCF'))
+        
+        id = colors.create_rectangle((10,70,30,90),fill="#7C2E1E")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#7C2E1E'))
+        
+        id = colors.create_rectangle((10,100,30,120),fill="#FF0000")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#FF0000'))
+
+        id = colors.create_rectangle((10,130,30,150),fill="#FF5D00")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#FF5D00'))
+
+        id = colors.create_rectangle((10,160,30,180),fill="#FFF700")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#FFF700'))
+        
+        id = colors.create_rectangle((10,190,30,210),fill="#3AFF00")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#3AFF00'))
+        
+        id = colors.create_rectangle((10,220,30,240),fill="#0051FF")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#0051FF'))
+        
+        id = colors.create_rectangle((10,250,30,270),fill="#8B00FF")
+        colors.tag_bind(id,"Button-1",lambda x: show_color('#8B00FF'))
+        
 display_pallete()
 
 canvas = Canvas(root,width=930,height=500,background="#fff",cursor="hand2")
-canvas.place(x=100,y=10)
+canvas.place(x=120,y=10)
 
 
 canvas.bind('<Button-1>')

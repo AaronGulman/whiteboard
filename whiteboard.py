@@ -20,5 +20,22 @@ Label(root,image=color_box,bg="#f2f3f5").place(x=10,y=20)
 
 
 
+
+
+
+color=Canvas(root,bg="#ffffff", width=78,height=420,bd=0)
+color.place(x=25,y=60)
+
+eraser=PhotoImage(file="eraser.png")
+Button(root,image=eraser,bg="#f2f3f5").place(x=38,y=390)
+
+
+
+
+
+
+
+
+
 root.mainloop()
 

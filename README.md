@@ -9,7 +9,7 @@ This is a simple whiteboard application built using Python and the Tkinter libra
 
 ## Project Structure
 ```
-/Users/aaron/Python/Whiteboard/whiteboard/
+
 ├── color section.png
 ├── eraser.png
 ├── logo.png
